@@ -10,14 +10,51 @@
     tools:layout_editor_absoluteY="-10dp">
 
     <Button
+        android:id="@+id/ScrollUp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="465dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:rotationY="180"
+        android:text="^"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ScrollDown"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="402dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:rotation="180"
+        android:text="^"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/left_button"
         android:layout_width="150dp"
         android:layout_height="300dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="68dp"
-        android:layout_marginEnd="194dp"
+        android:layout_marginEnd="200dp"
         android:layout_marginBottom="270dp"
         android:text="Left Click"
+        android:textColorLink="#ff6750a4"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,9 +65,9 @@
         android:id="@+id/right_button"
         android:layout_width="150dp"
         android:layout_height="300dp"
-        android:layout_marginStart="194dp"
+        android:layout_marginStart="200dp"
         android:layout_marginTop="68dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="1dp"
         android:layout_marginBottom="270dp"
         android:text="Right Click"
         android:visibility="visible"
@@ -38,18 +75,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/goToInputCodeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="122dp"
-        android:layout_marginEnd="121dp"
-        android:layout_marginBottom="18dp"
-        android:text="Input Code"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/CalibrateGyro"
