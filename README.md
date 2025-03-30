@@ -6,7 +6,7 @@ OmniMouse turns your Android phone into a motion-controlled computer mouse using
 - **Gyroscope-Based Control:** Intuitive cursor movement using phone rotation.
 - **Wireless Connectivity:** Connect via Wi-Fi for seamless control.
 - **Cross-Platform Compatibility:** Supports Windows, Mac, and Linux.
-- **User-Friendly Interface:** Simple setup and easy calibration.
+- **User-Friendly Interface:** Simple design and easy calibration.
 
 ### Requirements
 - Android phone (compatible with OmniMouse app)
